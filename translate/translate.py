@@ -1,8 +1,8 @@
 ###################
-CHAR_LIMIT = 5000
 INPUT_L = 'en'
 OUTPUT_L = 'fa'
 ###################
+
 from deep_translator import GoogleTranslator
 path = input("Enter the path: ")
 out = path.split('.')[0]
@@ -23,7 +23,7 @@ def strSplit(in_str, count):
         cur_pos += count
     return result
 
-outlist = strSplit(output, CHAR_LIMIT)
+outlist = strSplit(output, 5000)
 translated = ''
 for _ in outlist:
     o = GoogleTranslator(source = INPUT_L, target = OUTPUT_L).translate(_)
