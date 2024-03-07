@@ -10,6 +10,6 @@ python scripts that makes life better
 
 If you have any questions, feedback, or need assistance, feel free to reach out:
 
-- **Email:** [meta@int-n.info](mailto:moshakiba@icloud.com)
+- **Email:** [moshakiba@icloud.com](mailto:moshakiba@icloud.com)
 - **GitHub:** [github.com/mo-shakiba](https://github.com/mo-shakiba)
 ---
