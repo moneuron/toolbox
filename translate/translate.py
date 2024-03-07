@@ -27,6 +27,6 @@ outlist = strSplit(output, 4999)
 translated = ''
 for _ in outlist:
     o = GoogleTranslator(source = INPUT_L, target = OUTPUT_L).translate(_)
-    translated += o + ' \n'
+    translated += o
 with open(f'translated_{out}.txt', "w") as file:
     file.write(translated)
