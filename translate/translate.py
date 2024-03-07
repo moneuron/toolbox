@@ -23,7 +23,7 @@ def strSplit(in_str, count):
         cur_pos += count
     return result
 
-outlist = strSplit(output, 5000)
+outlist = strSplit(output, 4999)
 translated = ''
 for _ in outlist:
     o = GoogleTranslator(source = INPUT_L, target = OUTPUT_L).translate(_)
