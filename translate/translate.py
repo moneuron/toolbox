@@ -4,7 +4,8 @@ OUTPUT_L = 'fa'
 ###################
 
 from deep_translator import GoogleTranslator
-path = input("Enter the path: ")
+print("BE SURE TO RUN THE PROGRAM IN THE SAME DIRECTORY AS THE FILE")
+path = input("file name: ")
 out = path.split('.')[0]
 output = ''
 with open(path, "r") as file:
