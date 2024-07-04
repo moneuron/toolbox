@@ -1,5 +1,5 @@
 # toolbox
-
+##### by [Mo Shakiba](http://moshakiba.me)
 
 ### translate
 > -› translates any .txt file from any language without charchter limitation!
