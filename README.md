@@ -1,9 +1,9 @@
 # toolbox
-##### by [Mo Shakiba](https://moshakiba.me)
+##### by [Mo Shakiba](https://github.com/moneuron)
 
-### translate
+##### translate.py
 > -› translates any .txt file from any language without charchter limitation!
 ---
-### unique
+##### unique.py
 >  -› reads a CSV file and print all the unique values for each column!
 ---
